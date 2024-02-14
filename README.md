@@ -46,3 +46,11 @@ There is quite a bit of code repetition, hence ample room for refactoring as wel
 A simple plotting of the highs and lows of the previous N days. Low opacity is especially helpful to notice overlapping lines.
 
 ![NDayHiLo](figures/NDayHiLo.png)
+
+### Bar Mean, k-Standard Deviation
+Somewhat like the Bollinger bands, except instead of looking at the previous N bars we are looking at the mean and the st.dev of points *within* each bar. To achieve this, series with lower time resolution — here 1-sec series — are loaded.
+
+The lower time series and the plot forms are for now hard coded. Depnding on your application you may change the values or pass them as parameters.
+
+![BarMeanStanDev](figures/BarMeanStanDev.png)
+
