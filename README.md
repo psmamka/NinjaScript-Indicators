@@ -60,3 +60,6 @@ Some versions of NT come with their own built-in commultive delta indicator, whi
 Both versions are illustrated below. For FOSSDelta you'll need to explicitly load the tick data to your chart.
 
 ![FOSSDelta](figures/FOSSDelta.png)
+
+## License
+Released under GNU General Public License v3.0. See ![LICENSE](LICENSE.txt).
