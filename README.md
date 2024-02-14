@@ -23,7 +23,7 @@ If you want to use these indicators in your NT environment, open an editor windo
 Note: I put all my cutom files are inside a NT subfolder titled `MyIndicators`, to keep them separate for NT's own built-in indi's. Change the namespace in line 25 of each file to match the name of your desired subfolder.
 
 ### Moving Average Serpent / Snake
-The old serpent beloved by many chartists. The idea is to remove some of the clutter that comes with having too many moving averages criss-crossing the chart. This particular example implements for pairs of EMA's. You can repurpose it to use any other type of indicator, or even pairs consisting of different indicator types (e.g. EMA vs SMA).
+The idea is to remove some of the clutter that comes with having too many moving averages criss-crossing the chart. This particular example implements for pairs of EMA's. You can repurpose it to use any other type of indicator, or even pairs consisting of different indicator types (e.g. EMA vs SMA).
 
 Note: If you don't like the indicator name wasting your chart real estate, set the `label` property to an empty string in the indicator menu.
 
@@ -41,3 +41,8 @@ Note 2: The option for making the first point of the session invisible is to avo
 There is quite a bit of code repetition, hence ample room for refactoring as well as generalizations for N days.
 
 ![5-Day VWAP](figures/VWAP5Day.png)
+
+### N-day High-Low
+A simple plotting of the highs and lows of the previous N days. Low opacity is especially helpful to notice overlapping lines.
+
+![NDayHiLo](figures/NDayHiLo.png)
