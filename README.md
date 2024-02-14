@@ -54,3 +54,9 @@ The lower time series and the plot forms are for now hard coded. Depnding on you
 
 ![BarMeanStanDev](figures/BarMeanStanDev.png)
 
+### Free/Open Source Software (FOSS) Delta
+Some versions of NT come with their own built-in commultive delta indicator, which shows the imbalance of trades taking place on the ask and bid sides. If you want a more granular control on the indicator implementation, here is a simplified FOSS version of the same dela indicator.
+
+Both versions are illustrated below. For FOSSDelta you'll need to explicitly load the tick data to your chart.
+
+![FOSSDelta](figures/FOSSDelta.png)
