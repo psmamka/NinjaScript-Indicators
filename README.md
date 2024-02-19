@@ -54,12 +54,19 @@ The lower time series and the plot forms are for now hard coded. Depnding on you
 
 ![BarMeanStanDev](figures/BarMeanStanDev.png)
 
-### Free/Open Source Software (FOSS) Delta
-Some versions of NT come with their own built-in commultive delta indicator, which shows the imbalance of trades taking place on the ask and bid sides. If you want a more granular control on the indicator implementation, here is a simplified FOSS version of the same dela indicator.
+###  Open Source Delta
+Some versions of NT come with their own built-in commultive delta indicator, which shows the imbalance of trades taking place on the ask and bid sides. If you want a more granular control on the indicator implementation, here is a simplified Free/Open Source Software (FOSS) version of the same dela indicator.
 
 Both versions are illustrated below. For FOSSDelta you'll need to explicitly load the tick data to your chart.
 
 ![FOSSDelta](figures/FOSSDelta.png)
+
+### Delta Box
+It can be instructive to look at the cumulative amount of change in delta while delta is monotonically increasing or decreasing within a given range. Delta box depicts these cumulative delta changes within these regions. The height (**not** the area) of each rectangle represents the total delta change within that region.
+
+For comparison, the delta box and the delta curve are shown next to each other, with yellow arrows indicating a monotonic delta change region.
+
+![DeltaBox](figures/DeltaBox.png)
 
 ## License
 Released under GNU General Public License v3.0. See ![LICENSE](LICENSE.txt).
